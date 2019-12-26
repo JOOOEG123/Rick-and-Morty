@@ -1,0 +1,14 @@
+<!doctype>
+<html>
+<head>
+
+</head>
+<body>
+<h1>
+Contact us page
+</h1>
+
+
+</body>
+
+</html>

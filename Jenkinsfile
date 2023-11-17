@@ -5,6 +5,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
+                echo 'test'
                 sh 'node --version'
                 sh 'npm ci'
                 sh 'npm run test'

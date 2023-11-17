@@ -1,15 +1,11 @@
-// pipeline {
-    // agent {
-    //     // docker { image 'node:20.9.0-alpine3.18' }
-    // }
+pipeline {
+    agent any
+
     stages {
-        stage('Test') {
+        stage('Hello') {
             steps {
-                echo 'test'
-                sh 'node --version'
-                sh 'npm ci'
-                sh 'npm run test'
+                echo 'Hello World'
             }
         }
     }
-// }
+}
